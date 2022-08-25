@@ -1,0 +1,12 @@
+.searchInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputCity {
+    margin-bottom: 5px;
+    border-radius: 12px;
+    justify-content: center;
+    text-align: center;
+}
+
