@@ -1,0 +1,10 @@
+.wheatherInfoBox {
+    width: 500px;
+    height: 300px;
+    background-color: #F2F4F6;
+    border: 2px solid #FFF0EB;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

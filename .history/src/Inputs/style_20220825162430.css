@@ -1,0 +1,9 @@
+.searchInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputCity {
+    border-radius: 12px;
+}
+

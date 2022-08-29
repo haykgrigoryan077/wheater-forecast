@@ -10,13 +10,13 @@ function App() {
     <div className="App">
       <SearchCitys 
         setCity={setCity}
-        city={city}
+        city={finalSearch}
         finalSearch={finalSearch}
         setFinalSearch={setFinalSearch}
       />
-      {finalSearch && <ShowWheatherData
-        city={finalSearch}
-      />}
+      <ShowWheatherData
+        city={city}
+      />
     </div>
   );
 }

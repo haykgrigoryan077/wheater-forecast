@@ -1,0 +1,4 @@
+.searchInput {
+    display: flex;
+    flex-direction: column;
+}

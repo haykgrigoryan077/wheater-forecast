@@ -14,9 +14,7 @@ function App() {
         finalSearch={finalSearch}
         setFinalSearch={setFinalSearch}
       />
-      {finalSearch && <ShowWheatherData
-        city={finalSearch}
-      />}
+      <ShowWheatherData />
     </div>
   );
 }
